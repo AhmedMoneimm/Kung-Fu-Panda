@@ -2,6 +2,7 @@
 package game.component;
 
 import game.obj.Plates;
+import game.obj.Plates2;
 import game.obj.Player;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -35,7 +36,7 @@ public class PanelGame extends JComponent {
     private Player player;
     private Key key;
     private List<Plates> plates;
-    
+    private List<Plates2> plates2;
     
     public void start(){
        width = getWidth();
@@ -157,6 +158,8 @@ public class PanelGame extends JComponent {
     
     private void drawBackground(){
         g2.drawImage(new ImageIcon(getClass().getResource("/game/image/Background.jpg")).getImage(), 0, 0, null);
+        g2.drawImage(new ImageIcon(getClass().getResource("/game/image/Bamboo2.png")).getImage(), 1100, 25, null);    
+        g2.drawImage(new ImageIcon(getClass().getResource("/game/image/Bamboo.png")).getImage(), 0, 5, null);
     }
     
     private void drawGame(){

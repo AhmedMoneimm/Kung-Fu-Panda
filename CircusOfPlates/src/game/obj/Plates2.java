@@ -18,7 +18,7 @@ import javax.swing.ImageIcon;
  *
  * @author eyada
  */
-public class Plates {
+public class Plates2 {
     
     private double x;
     private double y;
@@ -29,8 +29,8 @@ public class Plates {
     private final float speed=0.3f;
     private Area plateshape;
     
-    public Plates() {
-        this.image = new ImageIcon(getClass().getResource("/game/image/Plates.png")).getImage();
+    public Plates2() {
+        this.image = new ImageIcon(getClass().getResource("/game/image/Noodles.png")).getImage();
         widthOfImage=image.getWidth(null);
         heightOfImage=image.getHeight(null);
         //this.image_speed = new ImageIcon(getClass().getResource("/game/image/CircusOfPlates.jpg")).getImage();  

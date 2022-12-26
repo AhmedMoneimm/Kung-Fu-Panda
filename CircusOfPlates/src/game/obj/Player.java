@@ -57,7 +57,7 @@ public class Player {
         Shape shape=getShape();
         g2.setTransform(oldTransform);
         g2.setColor(Color.red);
-        g2.draw(shape);
+        //g2.draw(shape);
         g2.setTransform(oldTransform);
         for(int i=0;i<platesStack.size();i++)
                 platesStack.get(i).draw(g2);
@@ -136,6 +136,7 @@ public class Player {
                     System.out.println("successfully reomved");
                 }
                 score++;
+                System.out.println("score "+score);
                 xShape=0;
                 yShape=0;
                 counter-=3;
