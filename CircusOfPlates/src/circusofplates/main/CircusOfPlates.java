@@ -7,8 +7,10 @@ package circusofplates.main;
 import com.sun.tools.javac.Main;
 import game.component.PanelGame;
 import java.awt.BorderLayout;
+import java.awt.Image;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 /**
